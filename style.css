@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+}
+
+body{
+    text-align: center;
+    margin: 0;
+    background: #702e37;
+    background: linear-gradient(225deg,#702e37,#ffba81);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+#Calculadora{
+    background: rgb(7, 7, 7);
+    padding: 50px 45px;
+    border-radius: 10px;
+    border: 2px solid white;
+}
+
+#Display{
+    background: rgb(97, 97, 97);
+    height: 50px;
+    width: 200px;
+    margin: 0 0 10px 0;
+    border-radius: 5px;
+    border-style: none;
+    border: 1px solid white;
+}
+
+#Display:disabled{
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+    font-family: 'Inter', sans-serif;
+    padding: 0 15px;
+}
+
+.Operadores{
+    color: #ffba81;
+}
+
+button{
+    height: 50px;
+    width: 50px;
+    border-radius: 4px;
+    font-size: 25px;
+    margin: 2px 2px;
+    border: 1px solid white;
+    font-family: 'Inter', sans-serif;
+    background: #000000;
+    transition: background 1s;
+    color: white;
+}
+
+button:hover{
+    cursor: pointer;
+    background: red;
+}
+
+.Igualdade{
+    width: 110px;
+}
